@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "584445042621",
+    "project_id": "fir-authall-e32ce",
+    "storage_bucket": "fir-authall-e32ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584445042621:android:ff7c1de944c7b49b857cd4",
+        "android_client_info": {
+          "package_name": "com.example.hrengaging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "584445042621-kqt9no1usfn8apsvum684kpm8o936mu3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hrengaging",
+            "certificate_hash": "4d27fa12e29fe618fb134416052bf45069239e40"
+          }
+        },
+        {
+          "client_id": "584445042621-sj77rcd07l6hks0k1dniig39fbdl3sc1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5Z686fiKLfP0ZqmRS6dRBIJBZ_W5qDRY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "584445042621-sj77rcd07l6hks0k1dniig39fbdl3sc1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

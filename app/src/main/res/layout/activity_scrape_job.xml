@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_color">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_80sdp"
+            android:background="@drawable/purple_bg" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/opensans_semibold"
+                android:text="Job Post"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_20sdp"
+                android:gravity="center"
+                android:layout_marginStart="@dimen/_60sdp"
+                android:layout_marginEnd="@dimen/_60sdp"
+                android:layout_marginTop="@dimen/_30ssp"/>
+
+
+
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="29dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="31dp"
+            android:layout_marginTop="@dimen/_32sdp"
+            app:srcCompat="@drawable/arrow"
+            android:layout_alignParentLeft="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="@dimen/_260sdp"
+                android:layout_height="wrap_content"
+                android:text="Already job posted on Linkedin?"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_16sdp"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/_95sdp"
+                android:layout_marginLeft="@dimen/_20sdp" />
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="@dimen/_260sdp"
+            android:layout_height="wrap_content"
+            android:text="Enter the link and get the same posted"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_10sdp"
+            android:textStyle="italic"
+            android:layout_marginTop="@dimen/_115sdp"
+            android:layout_marginLeft="@dimen/_20sdp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/_350sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_marginStart="@dimen/_40sdp"
+                android:layout_marginLeft="@dimen/_40sdp"
+                android:layout_marginTop="@dimen/_160sdp"
+                android:layout_marginEnd="@dimen/_50sdp"
+                android:layout_marginRight="@dimen/_50sdp"
+                android:fontFamily="@font/opensans_regular"
+                android:text="Job Url"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:backgroundTint="@color/white"
+                app:cardCornerRadius="@dimen/_30sdp"
+                app:strokeWidth="0.3dp">
+
+
+                <EditText
+                    android:id="@+id/companyName"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/_18sdp"
+                    android:layout_marginEnd="@dimen/_18sdp"
+                    android:fontFamily="@font/opensans_regular"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_11ssp"
+                    android:theme="@style/NoUnderlineEditTextStyle" />
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="15dp" />
+
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="15dp" />
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnPost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_80sdp"
+                android:layout_marginEnd="@dimen/_80sdp"
+                android:backgroundTint="@color/dark_purple"
+                android:fontFamily="@font/opensans_regular"
+                android:text="Post"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12sdp"
+                app:backgroundTint="#59239E"
+                app:cornerRadius="32dp" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

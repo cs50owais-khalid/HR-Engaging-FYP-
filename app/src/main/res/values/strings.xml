@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">HR Engaging</string>
+    <string name="password">Password</string>
+    <string name="email_address">Email Address</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="fullname">Full Name</string>
+    <string name="profilename">Rabeya Tasleem</string>
+    <string name="profileemail">bscs2012401@szabist.pk</string>
+    <string name="profilepassword">**********</string>
+    <string name="profilecountry">Select your country</string>
+    <string name="profilecity">Select your city</string>
+    <string name="profileprofession">Select your profession</string>
+
+    <string name="default_web_client_id">your_web_client_id_here</string>
+
+
+    <string name="searchtxt">Search Companies or Users</string>
+    <string name="welcometxt">Hi, Welcome!</string>
+    <string name="dreamjob">Find your dream job</string>
+    <string name="jobtxt">Works just for you</string>
+    <string name="jobtxt2">Apply the job that suits you</string>
+
+
+    <string name="facebook_app_id">1234</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">56789</string>
+
+
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+
+    <string name="job_title">Job Title *</string>
+    <string name="company_name">Company Name *</string>
+    <string name="city">City *</string>
+    <string name="employment_type">Employment Type *</string>
+    <string name="salary">Salary *</string>
+    <string name="senerioty_level">Seniority Level *</string>
+    <string name="job_description">Job Description *</string>
+    <string name="company_logo">Company Logo *</string>
+    <string name="experience">How much experience do you have?</string>
+    <string name="resume">Resume *</string>
+    <string name="commute">Are you willing to commute? *</string>
+    <string name="time">How much time can you spare? *</string>
+    <string name="salary_exp">Salary Expectations? *</string>
+    <string name="describe">Describe yourself</string>
+    <string name="textview1">Find your dream</string>
+    <string name="textview2">job!</string>
+    <string name="textview3">Are you looking for a job? Say no more! HR engaging has a purpose of helping users to get a job in their relevant interests through their credentials, skills, and experience.</string>
+    <string name="textview4">Get notified</string>
+    <string name="textview5">Receive notifications and stay updated with only one click away on HR engaging. Now it\'s time for you to get a job alert and get appointed by high-ranking companies in an instant.</string>
+    <string name="textview6">Build your network</string>
+    <string name="textview7">Want to work with top-notch companies? Get connected with highly qualified professionals to discover your career path.</string>
+
+    <string name="none_selected">None Selected</string>
+
+
+    <string-array name="cities_array">
+        <item>None Selected</item>
+        <item>Abbottabad</item>
+        <item>Bahawalpur</item>
+        <item>Daska</item>
+        <item>Dera Ghazi Khan</item>
+        <item>Faisalabad</item>
+        <item>Ghotki</item>
+        <item>Gujranwala</item>
+        <item>Gujrat</item>
+        <item>Gwadar</item>
+        <item>Hyderabad</item>
+        <item>Islamabad</item>
+        <item>Jacobabad</item>
+        <item>Jhang</item>
+        <item>Jhelum</item>
+        <item>Karachi</item>
+        <item>Kasur</item>
+        <item>Khanewal</item>
+        <item>Khuzdar</item>
+        <item>Kohat</item>
+        <item>Lahore</item>
+        <item>Larkana</item>
+        <item>Mardan</item>
+        <item>Mianwali</item>
+        <item>Mirpur</item>
+        <item>Mirpur Khas</item>
+        <item>Multan</item>
+        <item>Nowshera</item>
+        <item>Okara</item>
+        <item>Pasrur</item>
+        <item>Peshawar</item>
+        <item>Quetta</item>
+        <item>Rahim Yar Khan</item>
+        <item>Rawalpindi</item>
+        <item>Sahiwal</item>
+        <item>Sargodha</item>
+        <item>Sheikhupura</item>
+        <item>Sialkot</item>
+        <item>Sukkur</item>
+        <item>Swabi</item>
+        <item>Swat</item>
+        <item>Thatta</item>
+        <item>Toba Tek Singh</item>
+        <item>Vehari</item>
+        <item>Wah Cantt</item>
+
+    </string-array>
+
+    <string-array name="education_types">
+        <item>Select Education Type</item>
+        <item>School</item>
+        <item>College</item>
+        <item>University</item>
+    </string-array>
+
+
+    <string-array name="certification_levels">
+        <item>Select Certification Level</item>
+        <item>Beginner</item>
+        <item>Intermediate</item>
+        <item>Advanced</item>
+    </string-array>
+
+
+    <string-array name="seniority_levels">
+        <item>None Selected</item>
+        <item>Paid Internship</item>
+        <item>Unpaid Internship</item>
+        <item>Entry Level</item>
+        <item>Junior</item>
+        <item>Mid-Level</item>
+        <item>Senior</item>
+        <item>Lead</item>
+        <item>Manager</item>
+        <item>Director</item>
+        <item>Executive</item>
+    </string-array>
+
+
+    <string-array name="employment_types">
+        <item>None Selected</item>
+        <item>Full-Time</item>
+        <item>Part-Time</item>
+        <item>Contract</item>
+        <item>Remote</item>
+    </string-array>
+
+
+</resources>

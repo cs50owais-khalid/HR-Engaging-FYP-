@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Hrengaging"
+        tools:targetApi="31">
+        <activity
+            android:name=".UserAppliedJobs"
+            android:exported="true" >
+
+        </activity>
+
+        <activity
+            android:name=".HREditProfile"
+            android:exported="true" >
+
+        </activity>
+        <activity
+            android:name=".CandidateDetails"
+            android:exported="false" />
+        <activity
+            android:name=".ApplicationScreeningDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".AddObjective"
+            android:exported="false" />
+        <activity
+            android:name=".EditCert"
+            android:exported="false" />
+        <activity
+            android:name=".EditEdu"
+            android:exported="true" />
+        <activity
+            android:name=".EditExp"
+            android:exported="true" />
+        <activity
+            android:name=".CertForm"
+            android:exported="false" />
+        <activity
+            android:name=".AppliedCandidates"
+            android:exported="true" />
+        <activity
+            android:name=".AppliedJobs"
+            android:exported="true" />
+        <activity
+            android:name=".EmailCandidate"
+            android:exported="true" />
+        <activity
+            android:name=".SuccessfullApplyJob"
+            android:exported="true" />
+        <activity
+            android:name=".EduForm"
+            android:exported="false" />
+        <activity
+            android:name=".LandingPage"
+            android:exported="true" />
+        <activity
+            android:name=".Notify"
+            android:exported="true"
+            android:theme="@style/Theme.Hrengaging" />
+        <activity
+            android:name=".SaveJobs"
+            android:exported="false"
+            android:theme="@style/Theme.Hrengaging" />
+        <activity
+            android:name=".ExperienceForm"
+            android:exported="true" />
+        <activity
+            android:name=".ApplyJob"
+            android:exported="true"
+            android:theme="@style/Theme.Hrengaging" />
+        <activity
+            android:name=".ScrapeJob"
+            android:exported="false"
+            android:theme="@style/Theme.Hrengaging" />
+        <activity
+            android:name=".EditJob"
+            android:exported="true"
+            android:theme="@style/Theme.Hrengaging" />
+        <activity
+            android:name=".HR_JobItem"
+            android:exported="false" />
+        <activity
+            android:name=".JobDetails"
+            android:exported="true"
+            android:theme="@style/Theme.Hrengaging" />
+        <activity
+            android:name=".CreateJob"
+            android:exported="true"
+            android:theme="@style/Theme.Hrengaging" />
+        <activity
+            android:name=".HRSignup"
+            android:exported="true"
+            android:theme="@style/Theme.Hrengaging" />
+        <activity
+            android:name=".HRLogin"
+            android:exported="true"
+            android:theme="@style/Theme.Hrengaging" />
+        <activity
+            android:name=".HRMainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Hrengaging">
+
+        </activity>
+        <activity
+            android:name=".MultiLogin"
+            android:exported="true"
+            android:theme="@style/Theme.Hrengaging" />
+        <activity
+            android:name=".Dashboard"
+            android:exported="true"
+            android:theme="@style/Theme.Hrengaging" />
+        <activity
+            android:name=".EditProfile"
+            android:exported="true"
+            android:theme="@style/Theme.Hrengaging" />
+        <activity
+            android:name=".GoogleSignInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="true"
+            android:theme="@style/Theme.Hrengaging" />
+        <activity
+            android:name=".Signup"
+            android:exported="true"
+            android:theme="@style/Theme.Hrengaging" />
+        <activity
+            android:name=".splashscreen"
+            android:exported="true"
+            android:theme="@style/Theme.Hrengaging">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+
+        </activity>
+    </application>
+
+</manifest>

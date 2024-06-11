@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_130sdp"
+        android:background="@drawable/purple_bg" />
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_70sdp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="42dp"
+        app:srcCompat="@drawable/hr_logo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Services"
+        android:fontFamily="@font/opensans_bold"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_190sdp"
+        android:layout_marginStart="@dimen/_20sdp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="match_parent"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_18sdp"
+            android:layout_height="@dimen/_130sdp"
+            android:layout_marginTop="300dp"
+            android:background="#FFFFFF"
+            app:cardCornerRadius="@dimen/_20sdp"
+            android:radius="8dp">
+
+            <TextView
+                android:id="@+id/hrapply"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apply as HR"
+                android:fontFamily="@font/opensans_bold"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15ssp"
+                android:layout_marginTop="@dimen/_55sdp"
+                android:layout_marginLeft="@dimen/_150sdp"/>
+
+            <ImageView
+                android:layout_width="@dimen/_55sdp"
+                android:layout_height="@dimen/_55sdp"
+                android:layout_marginStart="@dimen/_30sdp"
+                android:background="@drawable/human_resources"
+                android:layout_marginTop="@dimen/_40sdp"
+                android:layout_marginLeft="@dimen/_120sdp"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_18sdp"
+            android:layout_height="@dimen/_130sdp"
+            android:layout_marginTop="500dp"
+            android:background="#FFFFFF"
+            app:cardCornerRadius="@dimen/_20sdp"
+            android:radius="8dp">
+
+            <TextView
+                android:id="@+id/userapply"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apply as User"
+                android:fontFamily="@font/opensans_bold"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15ssp"
+                android:layout_marginTop="@dimen/_55sdp"
+                android:layout_marginLeft="@dimen/_150sdp"/>
+
+            <ImageView
+                android:layout_width="@dimen/_55sdp"
+                android:layout_height="@dimen/_55sdp"
+                android:layout_marginStart="@dimen/_30sdp"
+                android:background="@drawable/user_profile"
+                android:layout_marginTop="@dimen/_40sdp"
+                android:layout_marginLeft="@dimen/_120sdp"/>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</RelativeLayout>
